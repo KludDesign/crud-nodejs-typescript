@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "name": "test-dev",
+  "private": true,
+  "description": "Mobibam test project",
+  "scripts": {
+    "build": "node build.js",
+    "start": "nodemon dist/back-app.bundle.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "css-loader": "^3.4.2",
+    "nodemon": "^2.0.2",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "vue-class-component": "^7.1.0",
+    "vue-loader": "^15.7.2",
+    "vue-property-decorator": "^8.3.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "vue": "^2.6.11",
+    "vue-devtools": "3.1.6",
+    "buefy": "^0.8.8"
+  }
+}
